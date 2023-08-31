@@ -2,7 +2,7 @@
 Repositorio creado para mostrar el trabajo grupal del laboratorio a lo largo del semestre
 
 ## Profesores
-- [Ricardo Isaza]
+- Ricardo Isaza Ruget
 - [Johnny Germán Cubides Castro ](https://github.com/johnnycubides)
 ## Integrantes
 - [Alejandro Pachon Romero](https://github.com/alpachonr) (G8)
