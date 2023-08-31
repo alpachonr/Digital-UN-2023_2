@@ -1,6 +1,7 @@
+
 # Digital-UN-2023_2
 Repositorio creado para mostrar el trabajo grupal del laboratorio a lo largo del semestre
-
+![microchip](https://github.com/alpachonr/Digital-UN-2023_2/assets/70299021/d6e19845-8084-48af-91ca-b2c41aea208b)
 ## Profesores
 - Ricardo Isaza Ruget
 - [Johnny Germán Cubides Castro ](https://github.com/johnnycubides)
