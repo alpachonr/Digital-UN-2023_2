@@ -1,0 +1,30 @@
+<Qucs Schematic 2.0.0>
+<Properties>
+  <View=0,0,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=sim_n_74ls04.dat>
+  <DataDisplay=sim_n_74ls04.sch>
+  <OpenDisplay=1>
+  <Script=sim_n_74ls04.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Título>
+  <FrameText1=Dibujado por:>
+  <FrameText2=Fecha:>
+  <FrameText3=Revisión:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 240 170 240 160 3 #c0c0c0 1 00 1 0 0.002 0.01 1 -0.498597 2 6 1 -1 1 1 315 0 225 0 0 0 "" "" "">
+	<"ngspice/tran.v(in)" #ff0000 0 3 0 0 0>
+	<"ngspice/tran.v(out)" #ff00ff 0 3 0 0 0>
+	<"ngspice/tran.v(vcc)" #ff00ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
