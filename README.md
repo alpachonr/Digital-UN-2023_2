@@ -1,7 +1,7 @@
 
 # Digital-UN-2023_2
 Repositorio creado para mostrar el trabajo grupal del laboratorio a lo largo del semestre
-<img src="https://github.com/alpachonr/Digital-UN-2023_2/assets/70299021/d6e19845-8084-48af-91ca-b2c41aea208b" height="60" width="60" >
+<img src="https://github.com/alpachonr/Digital-UN-2023_2/assets/70299021/d6e19845-8084-48af-91ca-b2c41aea208b" height="200" width="200" >
 
 ## Profesores
 - Ricardo Isaza Ruget
