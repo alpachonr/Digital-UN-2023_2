@@ -1,4 +1,4 @@
-![Texto alternativo](Digital-UN-2023_2/labtec/imagenes/imagen_2023-09-04_233141212.png)
+![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0000.JPG)
 
 Datasheet
 - [74LS04](Digital-UN-2023_2/labtec/cd4069ub.pdf) 
