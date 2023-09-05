@@ -9,3 +9,4 @@ Bibliografía
 - [Documentación qucs](https://qucs.sourceforge.net/docs.html)
 - [Modelo y Datasheet SN74LS04](https://www.ti.com/product/SN74LS04)
 - [Modelo y Datasheet CD4069UB](https://www.ti.com/product/CD4069UB?keyMatch=&tisearch=search-everything)
+![Sin título](https://github.com/alpachonr/Digital-UN-2023_2/assets/70299021/e2132645-a112-4fd7-b097-62d549ff2a79)
