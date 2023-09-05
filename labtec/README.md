@@ -1,4 +1,4 @@
-`hola mundo`
+![Texto alternativo](imagenes/TEK0002.jpg)
 
 Datasheet
 - [74LS04](Digital-UN-2023_2/labtec/cd4069ub.pdf) 
