@@ -1,3 +1,5 @@
+`hola mundo`
+
 Datasheet
 - [74LS04](Digital-UN-2023_2/labtec/cd4069ub.pdf) 
 - [CD4069](Digital-UN-2023_2/labtec/sn74ls04.pdf)  
