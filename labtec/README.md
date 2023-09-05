@@ -1,4 +1,4 @@
-![Texto alternativo](imagenes/TEK0002.jpg)
+![Texto alternativo](imagenes/imagen_2023-09-04_233141212.png)
 
 Datasheet
 - [74LS04](Digital-UN-2023_2/labtec/cd4069ub.pdf) 
