@@ -1,11 +1,13 @@
 ![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0000.JPG)
 ![Sin título](https://github.com/alpachonr/Digital-UN-2023_2/assets/70299021/e2132645-a112-4fd7-b097-62d549ff2a79)
-![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0001.JPG)
-![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0002.JPG)
-![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0003.JPG)
-![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0004.JPG)
-![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0005.JPG)
-![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0006.JPG)
+<img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0000.JPG" height="50%" width="50%" >
+<img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0001.JPG" height="50%" width="50%" >
+<img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0002.JPG" height="50%" width="50%" >
+<img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0003.JPG" height="50%" width="50%" >
+<img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0004.JPG" height="50%" width="50%" >
+<img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0005.JPG" height="50%" width="50%" >
+<img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0006.JPG" height="50%" width="50%" >
+
 Datasheet
 - [74LS04](Digital-UN-2023_2/labtec/cd4069ub.pdf) 
 - [CD4069](Digital-UN-2023_2/labtec/sn74ls04.pdf)  
