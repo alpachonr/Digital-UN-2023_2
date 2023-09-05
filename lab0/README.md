@@ -7,8 +7,9 @@ La mayoría de las herramientas que se van a utilizar en las prácticas van a se
 
 La verisón de conda la cual será instalada será "Miniconda", la cual tiene incluidos solamente los paquetes necesarios para el funcionamiento correcto de conda a diferencia de Anaconda que sería la versión normal, esto es debido a varias razones, la más importante es porque más ligero y tenerlo así nos permite crear un entorno solamente con lo necesario para trabajar. 
 
-Se creó un ambiente para alojar nuestras herramientas, se le pudo haber colocado cualquier nombre pero será llamado "digital", para este ambiente le indicaremos a conda que instale la versión 3.10 de python, todo este proceso se puede hacer con los siguientes comandos.
+Se creó un ambiente para alojar nuestras herramientas, se le pudo haber colocado cualquier nombre pero será llamado "digital", para este ambiente le indicaremos a conda que instale la versión 3.10 de python, todo este proceso se puede hacer con los siguientes comandos en la terminal de ubuntu.
 
-`
-
-`
+```bash
+(base) $ conda create -n digital python=3.10 
+(base) $ conda activate digital
+```
