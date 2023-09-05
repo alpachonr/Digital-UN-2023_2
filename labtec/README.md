@@ -10,6 +10,7 @@ Bibliografía
 - [Modelo y Datasheet SN74LS04](https://www.ti.com/product/SN74LS04)
 - [Modelo y Datasheet CD4069UB](https://www.ti.com/product/CD4069UB?keyMatch=&tisearch=search-everything)
 
+<img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/imagen_2023-09-04_235946433.png" height="50%" width="50%">
 <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0000.JPG" height="50%" width="50%" >
 <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0001.JPG" height="50%" width="50%" >
 <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0002.JPG" height="50%" width="50%" >
