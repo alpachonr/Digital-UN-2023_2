@@ -5,4 +5,10 @@ Al contar con dos computadores diferentes y por conveniencia se utilizaron dos m
 
 La mayoría de las herramientas que se van a utilizar en las prácticas van a ser instaladas a través de una herramienta conocida como "[Conda](https://www.anaconda.com/download)" la cual será usada para crear diferentes ambientes los cuales van a tener ciertas combinaciones de versiones de ciertas herramientas que nos van a permitir acceso a herramientas de simulación, diseño y análisis de circuitos eléctricos con elementos de electrónica digital (un pequeño video explicando, [acá](https://freelearning.anaconda.cloud/get-started-with-anaconda/19308).
 
-La verisón de conda la cual será instalada será [Miniconda], la cual tiene incluidos solamente los paquetes necesarios para el funcionamiento correcto de conda, a diferencia de Anaconda que sería la versión normal, esto es debido a varias razones, es más ligero.
+La verisón de conda la cual será instalada será "Miniconda", la cual tiene incluidos solamente los paquetes necesarios para el funcionamiento correcto de conda a diferencia de Anaconda que sería la versión normal, esto es debido a varias razones, la más importante es porque más ligero y tenerlo así nos permite crear un entorno solamente con lo necesario para trabajar. 
+
+Se creó un ambiente para alojar nuestras herramientas, se le pudo haber colocado cualquier nombre pero será llamado "digital", para este ambiente le indicaremos a conda que instale la versión 3.10 de python, todo este proceso se puede hacer con los siguientes comandos.
+
+`
+
+`
