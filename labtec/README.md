@@ -1,5 +1,4 @@
-![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0000.JPG)
-![Sin título](https://github.com/alpachonr/Digital-UN-2023_2/assets/70299021/e2132645-a112-4fd7-b097-62d549ff2a79)
+
 <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0000.JPG" height="50%" width="50%" >
 <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0001.JPG" height="50%" width="50%" >
 <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0002.JPG" height="50%" width="50%" >
