@@ -1,5 +1,11 @@
 ![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0000.JPG)
-
+![Sin título](https://github.com/alpachonr/Digital-UN-2023_2/assets/70299021/e2132645-a112-4fd7-b097-62d549ff2a79)
+![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0001.JPG)
+![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0002.JPG)
+![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0003.JPG)
+![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0004.JPG)
+![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0005.JPG)
+![Texto alternativo](https://github.com/alpachonr/Digital-UN-2023_2/blob/main/labtec/imagenes/TEK0006.JPG)
 Datasheet
 - [74LS04](Digital-UN-2023_2/labtec/cd4069ub.pdf) 
 - [CD4069](Digital-UN-2023_2/labtec/sn74ls04.pdf)  
@@ -9,4 +15,4 @@ Bibliografía
 - [Documentación qucs](https://qucs.sourceforge.net/docs.html)
 - [Modelo y Datasheet SN74LS04](https://www.ti.com/product/SN74LS04)
 - [Modelo y Datasheet CD4069UB](https://www.ti.com/product/CD4069UB?keyMatch=&tisearch=search-everything)
-![Sin título](https://github.com/alpachonr/Digital-UN-2023_2/assets/70299021/e2132645-a112-4fd7-b097-62d549ff2a79)
+
