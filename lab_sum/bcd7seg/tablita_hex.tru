@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <truthTable>
   <variables>
-    <variable name="a1"/>
-    <variable name="b1"/>
-    <variable name="c1"/>
-    <variable name="d1"/>
+    <variable name="s3"/>
+    <variable name="s2"/>
+    <variable name="s1"/>
+    <variable name="s0"/>
   </variables>
   <results>
     <result>

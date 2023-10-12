@@ -4,10 +4,10 @@
  */
 
 module bcd7seg_hex (
-  input a1,
-  input b1,
-  input c1,
-  input d1,
+  input s3,
+  input s2,
+  input s1,
+  input s0,
   output a,
   output b,
   output c,
@@ -16,19 +16,19 @@ module bcd7seg_hex (
   output f,
   output g
 );
-  wire s0;
-  wire s1;
-  wire s2;
-  wire s3;
-  assign s0 = ~ a1;
-  assign s1 = ~ b1;
-  assign s2 = ~ c1;
-  assign s3 = ~ d1;
-  assign a = ((s0 & s1 & s2 & d1) | (a1 & s1 & c1 & d1) | (a1 & b1 & s2) | (b1 & s2 & s3));
-  assign b = ((s0 & b1 & s2 & d1) | (a1 & c1 & d1) | (a1 & b1 & s3) | (b1 & c1 & s3));
-  assign c = ((s0 & s1 & c1 & s3) | (a1 & b1 & s3) | (a1 & b1 & c1));
-  assign d = ((s0 & s1 & s2 & d1) | (s0 & b1 & s2 & s3) | (a1 & s1 & c1 & s3) | (b1 & c1 & d1));
-  assign e = ((s0 & d1) | (s0 & b1 & s2) | (s1 & s2 & d1));
-  assign f = ((s0 & s1 & d1) | (s0 & s1 & c1) | (s0 & c1 & d1) | (a1 & b1 & s2));
-  assign g = ((s0 & s1 & s2) | (s0 & b1 & c1 & d1));
+  wire s4;
+  wire s5;
+  wire s6;
+  wire s7;
+  assign s6 = ~ s3;
+  assign s5 = ~ s2;
+  assign s4 = ~ s1;
+  assign s7 = ~ s0;
+  assign a = ((s0 & s4 & s5 & s6) | (s7 & s4 & s2) | (s0 & s1 & s5 & s3) | (s4 & s2 & s3));
+  assign b = ((s0 & s4 & s2 & s6) | (s7 & s1 & s2) | (s0 & s1 & s3) | (s7 & s2 & s3));
+  assign c = ((s7 & s1 & s5 & s6) | (s7 & s2 & s3) | (s1 & s2 & s3));
+  assign d = ((s0 & s4 & s5 & s6) | (s7 & s4 & s2 & s6) | (s0 & s1 & s2) | (s7 & s1 & s5 & s3));
+  assign e = ((s0 & s6) | (s0 & s4 & s5) | (s4 & s2 & s6));
+  assign f = ((s0 & s5 & s6) | (s0 & s1 & s6) | (s1 & s5 & s6) | (s4 & s2 & s3));
+  assign g = ((s0 & s1 & s2 & s6) | (s4 & s5 & s6));
 endmodule
