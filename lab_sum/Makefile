@@ -1,15 +1,15 @@
 help: help-sim
 clean: clean-sim
 # CONDA=~/miniconda3/bin/conda
-TOP?=bcd7seg
+TOP?=sum7seg_hex
 #test bench del proyecto para la simulación
 tb?=$(TOP)_tb.v
 # DESIGN modules.v que hacen parte del proyecto
-DESIGN?=bcd7seg.v
+DESIGN?=./sum7seg_hex.v ./bcd7seg_hex.v ./full_sum.v ./sum.v
 # Agregar aquí otros archivos que se requieran para la simulación
 MORE_SRC2SIM=
 # Z: Nombre para empaquetar proyecto
-Z=bcd7seg
+Z=sum7seg_hex
 
 
 S=sim

@@ -7,12 +7,12 @@
       <elementName>ExternalFile</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>sum</string>
-        </entry>
-        <entry>
           <string>applicationType</string>
           <appType>IVERILOG</appType>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>sum0</string>
         </entry>
         <entry>
           <string>externalInputs</string>
@@ -128,7 +128,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>sum</string>
+          <string>sum1</string>
         </entry>
         <entry>
           <string>externalInputs</string>
@@ -154,7 +154,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>sum</string>
+          <string>sum2</string>
         </entry>
         <entry>
           <string>externalInputs</string>
@@ -204,7 +204,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>sum</string>
+          <string>sum3</string>
         </entry>
         <entry>
           <string>externalInputs</string>
@@ -240,7 +240,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>s4</string>
+          <string>Cout</string>
         </entry>
       </elementAttributes>
       <pos x="1220" y="300"/>
