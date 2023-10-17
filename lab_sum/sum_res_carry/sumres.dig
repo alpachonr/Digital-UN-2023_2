@@ -28,7 +28,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>c/b_in</string>
+          <string>c_in</string>
         </entry>
       </elementAttributes>
       <pos x="240" y="260"/>
@@ -78,7 +78,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>s/d</string>
+          <string>s</string>
         </entry>
       </elementAttributes>
       <pos x="900" y="180"/>
@@ -128,7 +128,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>c/b_out</string>
+          <string>cout</string>
         </entry>
       </elementAttributes>
       <pos x="860" y="360"/>
