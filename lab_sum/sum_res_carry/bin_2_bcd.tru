@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<truthTable>
+  <variables>
+    <variable name="carryout"/>
+    <variable name="s_out3"/>
+    <variable name="sout2"/>
+    <variable name="sout1"/>
+    <variable name="sout0"/>
+  </variables>
+  <results>
+    <result>
+      <name>d1</name>
+      <values class="BoolTable">00000000000000000000111111111111</values>
+    </result>
+    <result>
+      <name>d0</name>
+      <values class="BoolTable">00000000001111111111000000000011</values>
+    </result>
+    <result>
+      <name>u3</name>
+      <values class="BoolTable">00000000110000000011000000001100</values>
+    </result>
+    <result>
+      <name>u2</name>
+      <values class="BoolTable">00001111000000111100000011110000</values>
+    </result>
+    <result>
+      <name>u1</name>
+      <values class="BoolTable">00110011000011001100001100110001</values>
+    </result>
+    <result>
+      <name>u0</name>
+      <values class="BoolTable">01010101010101010101010101010100</values>
+    </result>
+  </results>
+</truthTable>
