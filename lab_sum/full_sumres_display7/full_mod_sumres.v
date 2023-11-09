@@ -134,45 +134,19 @@ module full_sumres (in_a,in_b,op,out_cy0,out_s2,sign0);
 	output out_cy0;
 	output [3:0] out_s2;
 	output sign0;
-	reg operar;
 	reg [3:0]temporal;
 	reg [3:0]t_a;
 	reg [3:0]t_b;
 	wire t_cy0;
-	reg sign;
-	
+	reg sign = 1'b1;
 	
 	always @ (in_a,in_b,op)
 		begin
-			if (op ==1)
+			if (in_a<in_b)
 				begin
-					if (in_a < in_b) 
-						begin
-							temporal= in_a;
-							t_a =t_b;
-							t_b= temporal;
+					if (op==1) 
 							sign= 1'b0;
-							operar=op;
-						end
-					else if (in_a==in_b)
-						begin
-							sign= 1'b1;
-							t_a= {~sign,~sign,~sign,~sign};
-							t_b= {~sign,~sign,~sign,~sign};
-							operar=1'b0;
-						end
-					else
-						begin
-							operar=op;
-							sign=1'b1;
-						end
-				end
-			else if(op!=1)
-				begin
-					sign=1'b1;
-					t_a=in_a;
 					t_b=in_b;
-					operar=op;
 				end	
 		end			
 	
@@ -182,14 +156,14 @@ module full_sumres (in_a,in_b,op,out_cy0,out_s2,sign0);
 	wire cable2;
 	wire [3:0]in_bm; 
 	assign sign0=sign;
-	scalarxor ope(t_b,operar,in_bm);
-	sumres sumres0(t_a[0],in_bm[0],operar,out_s2[0],cable0);
+	scalarxor ope(t_b,op,in_bm);
+	sumres sumres0(t_a[0],in_bm[0],op,out_s2[0],cable0);
 	sumres sumres1(t_a[1],in_bm[1],cable0,out_s2[1],cable1);
 	sumres sumres2(t_a[2],in_bm[2],cable1,out_s2[2],cable2);
 	sumres sumres3(t_a[3],in_bm[3],cable2,out_s2[3],t_cy0);
 
 	
-assign out_cy0=(~operar)&t_cy0 ;		
+assign out_cy0=(~op)&t_cy0 ;		
 endmodule
 module scalarxor (
 input [3:0]arr, 
