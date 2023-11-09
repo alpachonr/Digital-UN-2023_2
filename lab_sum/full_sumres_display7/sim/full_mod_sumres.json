@@ -1,0 +1,4710 @@
+{
+  "creator": "Yosys 0.33+6 (git sha1 41b34a193, x86_64-conda-linux-gnu-cc 11.2.0 -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -fdebug-prefix-map=/root/conda-eda/conda-eda/workdir/conda-env/conda-bld/yosys_1694128612374/work=/usr/local/src/conda/yosys-0.33_7_g41b34a193 -fdebug-prefix-map=/home/alejandro/miniconda3/envs/digital=/usr/local/src/conda-prefix -fPIC -Os -fno-merge-constants)",
+  "modules": {
+    "bin_2_bcd": {
+      "attributes": {
+        "src": "./full_mod_sumres.v:22.1-43.10"
+      },
+      "ports": {
+        "carryout": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "out": {
+          "direction": "input",
+          "bits": [ 3, 4, 5, 6 ]
+        },
+        "d": {
+          "direction": "output",
+          "bits": [ 7, 8, "0", "0" ]
+        },
+        "u": {
+          "direction": "output",
+          "bits": [ 9, 10, 11, 12 ]
+        }
+      },
+      "cells": {
+        "$and$./full_mod_sumres.v:31$1": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:31.19-31.36"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 5 ],
+            "Y": [ 13 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:31$2": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:31.41-31.58"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 6 ],
+            "Y": [ 14 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:38$10": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.44-38.55"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 15 ],
+            "B": [ 6 ],
+            "Y": [ 16 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:38$11": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.44-38.64"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 16 ],
+            "B": [ 5 ],
+            "Y": [ 17 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:38$13": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.69-38.82"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 18 ],
+            "Y": [ 19 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:38$14": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.69-38.87"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 19 ],
+            "B": [ 20 ],
+            "Y": [ 21 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:38$16": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.92-38.107"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "B": [ 4 ],
+            "Y": [ 22 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:38$17": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.92-38.116"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 22 ],
+            "B": [ 5 ],
+            "Y": [ 23 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:38$9": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.19-38.39"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 16 ],
+            "B": [ 4 ],
+            "Y": [ 24 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:39$20": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.19-39.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 16 ],
+            "B": [ 25 ],
+            "Y": [ 26 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:39$21": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.19-39.40"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 26 ],
+            "B": [ 20 ],
+            "Y": [ 27 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:39$23": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.45-39.67"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 19 ],
+            "B": [ 4 ],
+            "Y": [ 28 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:39$24": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.45-39.72"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 28 ],
+            "B": [ 20 ],
+            "Y": [ 29 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:39$27": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.77-39.99"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 14 ],
+            "B": [ 25 ],
+            "Y": [ 30 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:39$28": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.77-39.108"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 30 ],
+            "B": [ 5 ],
+            "Y": [ 31 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:40$30": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.19-40.26"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 15 ],
+            "B": [ 18 ],
+            "Y": [ 32 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:40$31": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.19-40.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 32 ],
+            "B": [ 5 ],
+            "Y": [ 33 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:40$32": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.40-40.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 15 ],
+            "B": [ 4 ],
+            "Y": [ 34 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:40$33": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.40-40.60"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 34 ],
+            "B": [ 5 ],
+            "Y": [ 35 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:40$35": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.65-40.78"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 25 ],
+            "Y": [ 36 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:40$36": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.65-40.83"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 36 ],
+            "B": [ 20 ],
+            "Y": [ 37 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:40$39": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.88-40.110"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 14 ],
+            "B": [ 20 ],
+            "Y": [ 38 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$41": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.19-41.36"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Y": [ 39 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$42": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.19-41.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 39 ],
+            "B": [ 4 ],
+            "Y": [ 40 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$43": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.19-41.54"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 40 ],
+            "B": [ 5 ],
+            "Y": [ 41 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$46": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.59-41.84"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 26 ],
+            "B": [ 5 ],
+            "Y": [ 42 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$49": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.89-41.107"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 19 ],
+            "B": [ 25 ],
+            "Y": [ 43 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$50": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.89-41.112"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 43 ],
+            "B": [ 20 ],
+            "Y": [ 44 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$53": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.117-41.143"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 14 ],
+            "B": [ 4 ],
+            "Y": [ 45 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$54": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.117-41.148"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 45 ],
+            "B": [ 20 ],
+            "Y": [ 46 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$57": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.153-41.169"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 32 ],
+            "B": [ 4 ],
+            "Y": [ 47 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$59": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.174-41.185"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 18 ],
+            "B": [ 4 ],
+            "Y": [ 48 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:41$60": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.174-41.194"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 48 ],
+            "B": [ 5 ],
+            "Y": [ 49 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:42$62": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.19-42.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 15 ],
+            "B": [ 3 ],
+            "Y": [ 50 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:42$63": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.35-42.46"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 18 ],
+            "B": [ 3 ],
+            "Y": [ 51 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:42$65": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.51-42.62"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 25 ],
+            "Y": [ 52 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:42$67": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.67-42.78"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 20 ],
+            "Y": [ 53 ]
+          }
+        },
+        "$not$./full_mod_sumres.v:32$4": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:32.15-32.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "Y": [ 15 ]
+          }
+        },
+        "$not$./full_mod_sumres.v:33$5": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:33.15-33.23"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "Y": [ 18 ]
+          }
+        },
+        "$not$./full_mod_sumres.v:34$6": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:34.15-34.23"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "Y": [ 20 ]
+          }
+        },
+        "$not$./full_mod_sumres.v:35$7": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:35.15-35.23"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "Y": [ 25 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:31$3": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:31.18-31.59"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 13 ],
+            "B": [ 14 ],
+            "Y": [ 8 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:38$12": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.18-38.65"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 24 ],
+            "B": [ 17 ],
+            "Y": [ 54 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:38$15": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.18-38.88"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 54 ],
+            "B": [ 21 ],
+            "Y": [ 55 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:38$18": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.18-38.117"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 55 ],
+            "B": [ 23 ],
+            "Y": [ 7 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:39$25": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.18-39.73"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 27 ],
+            "B": [ 29 ],
+            "Y": [ 56 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:39$29": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.18-39.109"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 56 ],
+            "B": [ 31 ],
+            "Y": [ 12 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:40$34": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.18-40.61"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 33 ],
+            "B": [ 35 ],
+            "Y": [ 57 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:40$37": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.18-40.84"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 57 ],
+            "B": [ 37 ],
+            "Y": [ 58 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:40$40": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.18-40.111"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 58 ],
+            "B": [ 38 ],
+            "Y": [ 11 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:41$47": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.18-41.85"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 41 ],
+            "B": [ 42 ],
+            "Y": [ 59 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:41$51": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.18-41.113"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 59 ],
+            "B": [ 44 ],
+            "Y": [ 60 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:41$55": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.18-41.149"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 60 ],
+            "B": [ 46 ],
+            "Y": [ 61 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:41$58": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.18-41.170"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 61 ],
+            "B": [ 47 ],
+            "Y": [ 62 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:41$61": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.18-41.195"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 62 ],
+            "B": [ 49 ],
+            "Y": [ 10 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:42$64": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.18-42.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 50 ],
+            "B": [ 51 ],
+            "Y": [ 63 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:42$66": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.18-42.63"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 63 ],
+            "B": [ 52 ],
+            "Y": [ 64 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:42$68": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.18-42.79"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 64 ],
+            "B": [ 53 ],
+            "Y": [ 9 ]
+          }
+        }
+      },
+      "netnames": {
+        "$and$./full_mod_sumres.v:31$1_Y": {
+          "hide_name": 1,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:31.19-31.36"
+          }
+        },
+        "$and$./full_mod_sumres.v:31$2_Y": {
+          "hide_name": 1,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:31.41-31.58"
+          }
+        },
+        "$and$./full_mod_sumres.v:38$10_Y": {
+          "hide_name": 1,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.44-38.55"
+          }
+        },
+        "$and$./full_mod_sumres.v:38$11_Y": {
+          "hide_name": 1,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.44-38.64"
+          }
+        },
+        "$and$./full_mod_sumres.v:38$13_Y": {
+          "hide_name": 1,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.69-38.82"
+          }
+        },
+        "$and$./full_mod_sumres.v:38$14_Y": {
+          "hide_name": 1,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.69-38.87"
+          }
+        },
+        "$and$./full_mod_sumres.v:38$16_Y": {
+          "hide_name": 1,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.92-38.107"
+          }
+        },
+        "$and$./full_mod_sumres.v:38$17_Y": {
+          "hide_name": 1,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.92-38.116"
+          }
+        },
+        "$and$./full_mod_sumres.v:38$9_Y": {
+          "hide_name": 1,
+          "bits": [ 24 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.19-38.39"
+          }
+        },
+        "$and$./full_mod_sumres.v:39$20_Y": {
+          "hide_name": 1,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.19-39.35"
+          }
+        },
+        "$and$./full_mod_sumres.v:39$21_Y": {
+          "hide_name": 1,
+          "bits": [ 27 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.19-39.40"
+          }
+        },
+        "$and$./full_mod_sumres.v:39$23_Y": {
+          "hide_name": 1,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.45-39.67"
+          }
+        },
+        "$and$./full_mod_sumres.v:39$24_Y": {
+          "hide_name": 1,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.45-39.72"
+          }
+        },
+        "$and$./full_mod_sumres.v:39$27_Y": {
+          "hide_name": 1,
+          "bits": [ 30 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.77-39.99"
+          }
+        },
+        "$and$./full_mod_sumres.v:39$28_Y": {
+          "hide_name": 1,
+          "bits": [ 31 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.77-39.108"
+          }
+        },
+        "$and$./full_mod_sumres.v:40$30_Y": {
+          "hide_name": 1,
+          "bits": [ 32 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.19-40.26"
+          }
+        },
+        "$and$./full_mod_sumres.v:40$31_Y": {
+          "hide_name": 1,
+          "bits": [ 33 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.19-40.35"
+          }
+        },
+        "$and$./full_mod_sumres.v:40$32_Y": {
+          "hide_name": 1,
+          "bits": [ 34 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.40-40.51"
+          }
+        },
+        "$and$./full_mod_sumres.v:40$33_Y": {
+          "hide_name": 1,
+          "bits": [ 35 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.40-40.60"
+          }
+        },
+        "$and$./full_mod_sumres.v:40$35_Y": {
+          "hide_name": 1,
+          "bits": [ 36 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.65-40.78"
+          }
+        },
+        "$and$./full_mod_sumres.v:40$36_Y": {
+          "hide_name": 1,
+          "bits": [ 37 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.65-40.83"
+          }
+        },
+        "$and$./full_mod_sumres.v:40$39_Y": {
+          "hide_name": 1,
+          "bits": [ 38 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.88-40.110"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$41_Y": {
+          "hide_name": 1,
+          "bits": [ 39 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.19-41.36"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$42_Y": {
+          "hide_name": 1,
+          "bits": [ 40 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.19-41.45"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$43_Y": {
+          "hide_name": 1,
+          "bits": [ 41 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.19-41.54"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$46_Y": {
+          "hide_name": 1,
+          "bits": [ 42 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.59-41.84"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$49_Y": {
+          "hide_name": 1,
+          "bits": [ 43 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.89-41.107"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$50_Y": {
+          "hide_name": 1,
+          "bits": [ 44 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.89-41.112"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$53_Y": {
+          "hide_name": 1,
+          "bits": [ 45 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.117-41.143"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$54_Y": {
+          "hide_name": 1,
+          "bits": [ 46 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.117-41.148"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$57_Y": {
+          "hide_name": 1,
+          "bits": [ 47 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.153-41.169"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$59_Y": {
+          "hide_name": 1,
+          "bits": [ 48 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.174-41.185"
+          }
+        },
+        "$and$./full_mod_sumres.v:41$60_Y": {
+          "hide_name": 1,
+          "bits": [ 49 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.174-41.194"
+          }
+        },
+        "$and$./full_mod_sumres.v:42$62_Y": {
+          "hide_name": 1,
+          "bits": [ 50 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.19-42.30"
+          }
+        },
+        "$and$./full_mod_sumres.v:42$63_Y": {
+          "hide_name": 1,
+          "bits": [ 51 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.35-42.46"
+          }
+        },
+        "$and$./full_mod_sumres.v:42$65_Y": {
+          "hide_name": 1,
+          "bits": [ 52 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.51-42.62"
+          }
+        },
+        "$and$./full_mod_sumres.v:42$67_Y": {
+          "hide_name": 1,
+          "bits": [ 53 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.67-42.78"
+          }
+        },
+        "$or$./full_mod_sumres.v:38$12_Y": {
+          "hide_name": 1,
+          "bits": [ 54 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.18-38.65"
+          }
+        },
+        "$or$./full_mod_sumres.v:38$15_Y": {
+          "hide_name": 1,
+          "bits": [ 55 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:38.18-38.88"
+          }
+        },
+        "$or$./full_mod_sumres.v:39$25_Y": {
+          "hide_name": 1,
+          "bits": [ 56 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:39.18-39.73"
+          }
+        },
+        "$or$./full_mod_sumres.v:40$34_Y": {
+          "hide_name": 1,
+          "bits": [ 57 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.18-40.61"
+          }
+        },
+        "$or$./full_mod_sumres.v:40$37_Y": {
+          "hide_name": 1,
+          "bits": [ 58 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:40.18-40.84"
+          }
+        },
+        "$or$./full_mod_sumres.v:41$47_Y": {
+          "hide_name": 1,
+          "bits": [ 59 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.18-41.85"
+          }
+        },
+        "$or$./full_mod_sumres.v:41$51_Y": {
+          "hide_name": 1,
+          "bits": [ 60 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.18-41.113"
+          }
+        },
+        "$or$./full_mod_sumres.v:41$55_Y": {
+          "hide_name": 1,
+          "bits": [ 61 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.18-41.149"
+          }
+        },
+        "$or$./full_mod_sumres.v:41$58_Y": {
+          "hide_name": 1,
+          "bits": [ 62 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:41.18-41.170"
+          }
+        },
+        "$or$./full_mod_sumres.v:42$64_Y": {
+          "hide_name": 1,
+          "bits": [ 63 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.18-42.47"
+          }
+        },
+        "$or$./full_mod_sumres.v:42$66_Y": {
+          "hide_name": 1,
+          "bits": [ 64 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:42.18-42.63"
+          }
+        },
+        "carryout": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:23.9-23.17"
+          }
+        },
+        "d": {
+          "hide_name": 0,
+          "bits": [ 7, 8, "0", "0" ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:25.15-25.16"
+          }
+        },
+        "out": {
+          "hide_name": 0,
+          "bits": [ 3, 4, 5, 6 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:24.15-24.18"
+          }
+        },
+        "s0": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:27.8-27.10"
+          }
+        },
+        "s1": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:28.8-28.10"
+          }
+        },
+        "s2": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:29.8-29.10"
+          }
+        },
+        "s3": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:30.8-30.10"
+          }
+        },
+        "u": {
+          "hide_name": 0,
+          "bits": [ 9, 10, 11, 12 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:26.15-26.16"
+          }
+        }
+      }
+    },
+    "clk100hz": {
+      "attributes": {
+        "dynports": "00000000000000000000000000000001",
+        "src": "./full_mod_sumres.v:70.1-98.10"
+      },
+      "parameter_default_values": {
+        "LIMIT": "1100100",
+        "SIZE": "00000000000000000000000000000111"
+      },
+      "ports": {
+        "clk_in": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "clk_out": {
+          "direction": "output",
+          "bits": [ 3 ]
+        }
+      },
+      "cells": {
+        "$add$./full_mod_sumres.v:95$111": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000111",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:95.14-95.23"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4, 5, 6, 7, 8, 9, 10 ],
+            "B": [ "1" ],
+            "Y": [ 11, 12, 13, 14, 15, 16, 17 ]
+          }
+        },
+        "$eq$./full_mod_sumres.v:88$109": {
+          "hide_name": 1,
+          "type": "$eq",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000111",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000111",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:88.6-88.20"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4, 5, 6, 7, 8, 9, 10 ],
+            "B": [ "0", "0", "1", "0", "0", "1", "1" ],
+            "Y": [ 18 ]
+          }
+        },
+        "$not$./full_mod_sumres.v:91$110": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:91.16-91.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "Y": [ 19 ]
+          }
+        },
+        "$procdff$362": {
+          "hide_name": 1,
+          "type": "$dff",
+          "parameters": {
+            "CLK_POLARITY": "1",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:86.1-97.4"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CLK": [ 2 ],
+            "D": [ 20 ],
+            "Q": [ 3 ]
+          }
+        },
+        "$procdff$363": {
+          "hide_name": 1,
+          "type": "$dff",
+          "parameters": {
+            "CLK_POLARITY": "1",
+            "WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:86.1-97.4"
+          },
+          "port_directions": {
+            "CLK": "input",
+            "D": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "CLK": [ 2 ],
+            "D": [ 21, 22, 23, 24, 25, 26, 27 ],
+            "Q": [ 4, 5, 6, 7, 8, 9, 10 ]
+          }
+        },
+        "$procmux$250": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000111"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:88.6-88.20|./full_mod_sumres.v:88.3-96.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 11, 12, 13, 14, 15, 16, 17 ],
+            "B": [ "0", "0", "0", "0", "0", "0", "0" ],
+            "S": [ 18 ],
+            "Y": [ 21, 22, 23, 24, 25, 26, 27 ]
+          }
+        },
+        "$procmux$253": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:88.6-88.20|./full_mod_sumres.v:88.3-96.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 19 ],
+            "S": [ 18 ],
+            "Y": [ 20 ]
+          }
+        }
+      },
+      "netnames": {
+        "$0\\clk_out[0:0]": {
+          "hide_name": 1,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:86.1-97.4"
+          }
+        },
+        "$0\\count[6:0]": {
+          "hide_name": 1,
+          "bits": [ 21, 22, 23, 24, 25, 26, 27 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:86.1-97.4"
+          }
+        },
+        "$add$./full_mod_sumres.v:95$111_Y": {
+          "hide_name": 1,
+          "bits": [ 11, 12, 13, 14, 15, 16, 17 ],
+          "attributes": {
+          }
+        },
+        "$eq$./full_mod_sumres.v:88$109_Y": {
+          "hide_name": 1,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:88.6-88.20"
+          }
+        },
+        "$not$./full_mod_sumres.v:91$110_Y": {
+          "hide_name": 1,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:91.16-91.24"
+          }
+        },
+        "clk_in": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:71.9-71.15"
+          }
+        },
+        "clk_out": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "init": "0",
+            "src": "./full_mod_sumres.v:72.14-72.21"
+          }
+        },
+        "count": {
+          "hide_name": 0,
+          "bits": [ 4, 5, 6, 7, 8, 9, 10 ],
+          "attributes": {
+            "init": "0000000",
+            "src": "./full_mod_sumres.v:85.16-85.21"
+          }
+        }
+      }
+    },
+    "deco_7seg": {
+      "attributes": {
+        "src": "./full_mod_sumres.v:44.1-68.10"
+      },
+      "ports": {
+        "v": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "a": {
+          "direction": "output",
+          "bits": [ 6 ]
+        },
+        "b": {
+          "direction": "output",
+          "bits": [ 7 ]
+        },
+        "c": {
+          "direction": "output",
+          "bits": [ 8 ]
+        },
+        "d": {
+          "direction": "output",
+          "bits": [ 9 ]
+        },
+        "e": {
+          "direction": "output",
+          "bits": [ 10 ]
+        },
+        "f": {
+          "direction": "output",
+          "bits": [ 11 ]
+        },
+        "g": {
+          "direction": "output",
+          "bits": [ 12 ]
+        }
+      },
+      "cells": {
+        "$and$./full_mod_sumres.v:61$73": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.16-61.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 13 ],
+            "Y": [ 14 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:61$74": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.16-61.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 14 ],
+            "B": [ 15 ],
+            "Y": [ 16 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:61$75": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.16-61.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 16 ],
+            "B": [ 17 ],
+            "Y": [ 18 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:61$76": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.40-61.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 19 ],
+            "B": [ 13 ],
+            "Y": [ 20 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:61$77": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.40-61.54"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 20 ],
+            "B": [ 4 ],
+            "Y": [ 21 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:62$80": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:62.16-62.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 14 ],
+            "B": [ 4 ],
+            "Y": [ 22 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:62$81": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:62.37-62.46"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 19 ],
+            "B": [ 3 ],
+            "Y": [ 23 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:62$82": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:62.37-62.53"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 23 ],
+            "B": [ 4 ],
+            "Y": [ 24 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:63$85": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:63.15-63.29"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 23 ],
+            "B": [ 15 ],
+            "Y": [ 8 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:64$92": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:64.59-64.70"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Y": [ 25 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:64$93": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:64.59-64.77"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 25 ],
+            "B": [ 4 ],
+            "Y": [ 26 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:65$95": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:65.23-65.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 13 ],
+            "B": [ 4 ],
+            "Y": [ 27 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:66$101": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:66.51-66.60"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 15 ],
+            "Y": [ 28 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:66$97": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:66.16-66.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 15 ],
+            "Y": [ 29 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:66$98": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:66.16-66.30"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 29 ],
+            "B": [ 17 ],
+            "Y": [ 30 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:67$105": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:67.39-67.46"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 13 ],
+            "B": [ 15 ],
+            "Y": [ 31 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:67$106": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:67.39-67.51"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 31 ],
+            "B": [ 17 ],
+            "Y": [ 32 ]
+          }
+        },
+        "$not$./full_mod_sumres.v:57$69": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:57.15-57.21"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "Y": [ 17 ]
+          }
+        },
+        "$not$./full_mod_sumres.v:58$70": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:58.15-58.21"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "Y": [ 15 ]
+          }
+        },
+        "$not$./full_mod_sumres.v:59$71": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:59.15-59.21"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "Y": [ 13 ]
+          }
+        },
+        "$not$./full_mod_sumres.v:60$72": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:60.15-60.21"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "Y": [ 19 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:61$78": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.15-61.55"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 18 ],
+            "B": [ 21 ],
+            "Y": [ 6 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:62$83": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:62.15-62.54"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 22 ],
+            "B": [ 24 ],
+            "Y": [ 7 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:64$94": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:64.15-64.78"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6 ],
+            "B": [ 26 ],
+            "Y": [ 9 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:65$96": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:65.15-65.33"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 27 ],
+            "Y": [ 10 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:66$100": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:66.15-66.47"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 30 ],
+            "B": [ 25 ],
+            "Y": [ 33 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:66$102": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:66.15-66.61"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 33 ],
+            "B": [ 28 ],
+            "Y": [ 11 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:67$107": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:67.15-67.52"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 26 ],
+            "B": [ 32 ],
+            "Y": [ 12 ]
+          }
+        }
+      },
+      "netnames": {
+        "$and$./full_mod_sumres.v:61$73_Y": {
+          "hide_name": 1,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.16-61.25"
+          }
+        },
+        "$and$./full_mod_sumres.v:61$74_Y": {
+          "hide_name": 1,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.16-61.30"
+          }
+        },
+        "$and$./full_mod_sumres.v:61$75_Y": {
+          "hide_name": 1,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.16-61.35"
+          }
+        },
+        "$and$./full_mod_sumres.v:61$76_Y": {
+          "hide_name": 1,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.40-61.47"
+          }
+        },
+        "$and$./full_mod_sumres.v:61$77_Y": {
+          "hide_name": 1,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:61.40-61.54"
+          }
+        },
+        "$and$./full_mod_sumres.v:62$80_Y": {
+          "hide_name": 1,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:62.16-62.32"
+          }
+        },
+        "$and$./full_mod_sumres.v:62$81_Y": {
+          "hide_name": 1,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:62.37-62.46"
+          }
+        },
+        "$and$./full_mod_sumres.v:62$82_Y": {
+          "hide_name": 1,
+          "bits": [ 24 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:62.37-62.53"
+          }
+        },
+        "$and$./full_mod_sumres.v:64$92_Y": {
+          "hide_name": 1,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:64.59-64.70"
+          }
+        },
+        "$and$./full_mod_sumres.v:64$93_Y": {
+          "hide_name": 1,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:64.59-64.77"
+          }
+        },
+        "$and$./full_mod_sumres.v:65$95_Y": {
+          "hide_name": 1,
+          "bits": [ 27 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:65.23-65.32"
+          }
+        },
+        "$and$./full_mod_sumres.v:66$101_Y": {
+          "hide_name": 1,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:66.51-66.60"
+          }
+        },
+        "$and$./full_mod_sumres.v:66$97_Y": {
+          "hide_name": 1,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:66.16-66.25"
+          }
+        },
+        "$and$./full_mod_sumres.v:66$98_Y": {
+          "hide_name": 1,
+          "bits": [ 30 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:66.16-66.30"
+          }
+        },
+        "$and$./full_mod_sumres.v:67$105_Y": {
+          "hide_name": 1,
+          "bits": [ 31 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:67.39-67.46"
+          }
+        },
+        "$and$./full_mod_sumres.v:67$106_Y": {
+          "hide_name": 1,
+          "bits": [ 32 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:67.39-67.51"
+          }
+        },
+        "$or$./full_mod_sumres.v:66$100_Y": {
+          "hide_name": 1,
+          "bits": [ 33 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:66.15-66.47"
+          }
+        },
+        "a": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:46.10-46.11"
+          }
+        },
+        "b": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:47.10-47.11"
+          }
+        },
+        "c": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:48.10-48.11"
+          }
+        },
+        "d": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:49.10-49.11"
+          }
+        },
+        "e": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:50.10-50.11"
+          }
+        },
+        "f": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:51.10-51.11"
+          }
+        },
+        "g": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:52.10-52.11"
+          }
+        },
+        "s0": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:53.8-53.10"
+          }
+        },
+        "s1": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:54.8-54.10"
+          }
+        },
+        "s2": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:55.8-55.10"
+          }
+        },
+        "s3": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:56.8-56.10"
+          }
+        },
+        "v": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:45.14-45.15"
+          }
+        }
+      }
+    },
+    "demux12": {
+      "attributes": {
+        "src": "./full_mod_sumres.v:107.1-128.10"
+      },
+      "ports": {
+        "in": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "sel": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "out_si": {
+          "direction": "output",
+          "bits": [ 4 ]
+        },
+        "out_no": {
+          "direction": "output",
+          "bits": [ 5 ]
+        }
+      },
+      "cells": {
+        "$procmux$244": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:115.8-115.14|./full_mod_sumres.v:115.4-124.8"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "1" ],
+            "B": [ "0" ],
+            "S": [ 3 ],
+            "Y": [ 5 ]
+          }
+        },
+        "$procmux$247": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:115.8-115.14|./full_mod_sumres.v:115.4-124.8"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ "1" ],
+            "S": [ 3 ],
+            "Y": [ 4 ]
+          }
+        }
+      },
+      "netnames": {
+        "in": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:108.8-108.10"
+          }
+        },
+        "out_no": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:111.9-111.15"
+          }
+        },
+        "out_si": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:110.9-110.15"
+          }
+        },
+        "sel": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:109.8-109.11"
+          }
+        },
+        "temp": {
+          "hide_name": 0,
+          "bits": [ 4, 5 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:112.11-112.15"
+          }
+        }
+      }
+    },
+    "full_mod_sumres": {
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "./full_mod_sumres.v:1.1-21.10"
+      },
+      "ports": {
+        "in_a": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "in_b": {
+          "direction": "input",
+          "bits": [ 6, 7, 8, 9 ]
+        },
+        "op": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "clk_in": {
+          "direction": "input",
+          "bits": [ 11 ]
+        },
+        "a": {
+          "direction": "output",
+          "bits": [ 12 ]
+        },
+        "b": {
+          "direction": "output",
+          "bits": [ 13 ]
+        },
+        "c": {
+          "direction": "output",
+          "bits": [ 14 ]
+        },
+        "d": {
+          "direction": "output",
+          "bits": [ 15 ]
+        },
+        "e": {
+          "direction": "output",
+          "bits": [ 16 ]
+        },
+        "f": {
+          "direction": "output",
+          "bits": [ 17 ]
+        },
+        "g": {
+          "direction": "output",
+          "bits": [ 18 ]
+        },
+        "sign0": {
+          "direction": "output",
+          "bits": [ 19 ]
+        },
+        "dis1": {
+          "direction": "output",
+          "bits": [ 20 ]
+        },
+        "dis0": {
+          "direction": "output",
+          "bits": [ 21 ]
+        }
+      },
+      "cells": {
+        "deco1": {
+          "hide_name": 0,
+          "type": "bin_2_bcd",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:17.12-17.38"
+          },
+          "port_directions": {
+            "carryout": "input",
+            "d": "output",
+            "out": "input",
+            "u": "output"
+          },
+          "connections": {
+            "carryout": [ 22 ],
+            "d": [ 23, 24, 25, 26 ],
+            "out": [ 27, 28, 29, 30 ],
+            "u": [ 31, 32, 33, 34 ]
+          }
+        },
+        "deco2": {
+          "hide_name": 0,
+          "type": "deco_7seg",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:19.12-19.38"
+          },
+          "port_directions": {
+            "a": "output",
+            "b": "output",
+            "c": "output",
+            "d": "output",
+            "e": "output",
+            "f": "output",
+            "g": "output",
+            "v": "input"
+          },
+          "connections": {
+            "a": [ 12 ],
+            "b": [ 13 ],
+            "c": [ 14 ],
+            "d": [ 15 ],
+            "e": [ 16 ],
+            "f": [ 17 ],
+            "g": [ 18 ],
+            "v": [ 35, 36, 37, 38 ]
+          }
+        },
+        "demux": {
+          "hide_name": 0,
+          "type": "demux12",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:15.10-15.36"
+          },
+          "port_directions": {
+            "in": "input",
+            "out_no": "output",
+            "out_si": "output",
+            "sel": "input"
+          },
+          "connections": {
+            "in": [ "1" ],
+            "out_no": [ 20 ],
+            "out_si": [ 21 ],
+            "sel": [ 39 ]
+          }
+        },
+        "divi": {
+          "hide_name": 0,
+          "type": "clk100hz",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:14.11-14.28"
+          },
+          "port_directions": {
+            "clk_in": "input",
+            "clk_out": "output"
+          },
+          "connections": {
+            "clk_in": [ 11 ],
+            "clk_out": [ 39 ]
+          }
+        },
+        "mux": {
+          "hide_name": 0,
+          "type": "mux21_4bit",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:18.13-18.40"
+          },
+          "port_directions": {
+            "in_no": "input",
+            "in_si": "input",
+            "sal": "output",
+            "sel": "input"
+          },
+          "connections": {
+            "in_no": [ 31, 32, 33, 34 ],
+            "in_si": [ 23, 24, 25, 26 ],
+            "sal": [ 35, 36, 37, 38 ],
+            "sel": [ 39 ]
+          }
+        },
+        "sum": {
+          "hide_name": 0,
+          "type": "full_sumres",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:16.14-16.45"
+          },
+          "port_directions": {
+            "in_a": "input",
+            "in_b": "input",
+            "op": "input",
+            "out_cy0": "output",
+            "out_s2": "output",
+            "sign0": "output"
+          },
+          "connections": {
+            "in_a": [ 2, 3, 4, 5 ],
+            "in_b": [ 6, 7, 8, 9 ],
+            "op": [ 10 ],
+            "out_cy0": [ 22 ],
+            "out_s2": [ 27, 28, 29, 30 ],
+            "sign0": [ 19 ]
+          }
+        }
+      },
+      "netnames": {
+        "a": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:6.9-6.10"
+          }
+        },
+        "b": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:6.11-6.12"
+          }
+        },
+        "c": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:6.13-6.14"
+          }
+        },
+        "cinco": {
+          "hide_name": 0,
+          "bits": [ 35, 36, 37, 38 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:11.13-11.18"
+          }
+        },
+        "clk_in": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:5.8-5.14"
+          }
+        },
+        "cuatro": {
+          "hide_name": 0,
+          "bits": [ 31, 32, 33, 34 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:10.13-10.19"
+          }
+        },
+        "d": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:6.15-6.16"
+          }
+        },
+        "dis0": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:6.34-6.38"
+          }
+        },
+        "dis1": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:6.29-6.33"
+          }
+        },
+        "dos": {
+          "hide_name": 0,
+          "bits": [ 27, 28, 29, 30 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:8.13-8.16"
+          }
+        },
+        "e": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:6.17-6.18"
+          }
+        },
+        "f": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:6.19-6.20"
+          }
+        },
+        "g": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:6.21-6.22"
+          }
+        },
+        "in_a": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:2.14-2.18"
+          }
+        },
+        "in_b": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:3.14-3.18"
+          }
+        },
+        "op": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:4.8-4.10"
+          }
+        },
+        "seis": {
+          "hide_name": 0,
+          "bits": [ 39 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:12.7-12.11"
+          }
+        },
+        "sign0": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:6.23-6.28"
+          }
+        },
+        "tres": {
+          "hide_name": 0,
+          "bits": [ 23, 24, 25, 26 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:9.13-9.17"
+          }
+        },
+        "uno": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:7.7-7.10"
+          }
+        }
+      }
+    },
+    "full_sumres": {
+      "attributes": {
+        "src": "./full_mod_sumres.v:130.1-193.10"
+      },
+      "ports": {
+        "in_a": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "in_b": {
+          "direction": "input",
+          "bits": [ 6, 7, 8, 9 ]
+        },
+        "op": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "out_cy0": {
+          "direction": "output",
+          "bits": [ 11 ]
+        },
+        "out_s2": {
+          "direction": "output",
+          "bits": [ 12, 13, 14, 15 ]
+        },
+        "sign0": {
+          "direction": "output",
+          "bits": [ 16 ]
+        }
+      },
+      "cells": {
+        "$and$./full_mod_sumres.v:192$131": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:192.16-192.31"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 17 ],
+            "B": [ 18 ],
+            "Y": [ 11 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:244:make_hold$311": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 19 ],
+            "Y": [ 20 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:244:make_hold$315": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 21 ],
+            "Y": [ 22 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:257:make_hold$325": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 20 ],
+            "B": [ 22 ],
+            "Y": [ 23 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:257:make_hold$331": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 10 ],
+            "B": [ 23 ],
+            "Y": [ 24 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:257:make_hold$337": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 20 ],
+            "B": [ 24 ],
+            "Y": [ 25 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:257:make_hold$343": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 10 ],
+            "B": [ 25 ],
+            "Y": [ 26 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:257:make_hold$349": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 10 ],
+            "B": [ 26 ],
+            "Y": [ 27 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:427:proc_dlatch$281": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000000",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 28 ],
+            "EN": [ "0" ],
+            "Q": [ 29 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:427:proc_dlatch$355": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000000",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 30, 31, 32, 33 ],
+            "EN": [ 27 ],
+            "Q": [ 34, 35, 36, 37 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:427:proc_dlatch$358": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000000",
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 38, 39, 40, 41 ],
+            "EN": [ 27 ],
+            "Q": [ 42, 43, 44, 45 ]
+          }
+        },
+        "$auto$proc_dlatch.cc:427:proc_dlatch$361": {
+          "hide_name": 1,
+          "type": "$dlatch",
+          "parameters": {
+            "EN_POLARITY": "00000000000000000000000000000000",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          },
+          "port_directions": {
+            "D": "input",
+            "EN": "input",
+            "Q": "output"
+          },
+          "connections": {
+            "D": [ 46 ],
+            "EN": [ "0" ],
+            "Q": [ 16 ]
+          }
+        },
+        "$eq$./full_mod_sumres.v:157$120": {
+          "hide_name": 1,
+          "type": "$eq",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:157.15-157.25"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2, 3, 4, 5 ],
+            "B": [ 6, 7, 8, 9 ],
+            "Y": [ 21 ]
+          }
+        },
+        "$lt$./full_mod_sumres.v:149$119": {
+          "hide_name": 1,
+          "type": "$lt",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:149.10-149.21"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2, 3, 4, 5 ],
+            "B": [ 6, 7, 8, 9 ],
+            "Y": [ 19 ]
+          }
+        },
+        "$not$./full_mod_sumres.v:192$130": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:192.17-192.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 29 ],
+            "Y": [ 17 ]
+          }
+        },
+        "$procmux$165": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:157.15-157.25|./full_mod_sumres.v:157.11-168.10"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "1" ],
+            "B": [ "0" ],
+            "S": [ 21 ],
+            "Y": [ 47 ]
+          }
+        },
+        "$procmux$200": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:149.10-149.21|./full_mod_sumres.v:149.6-168.10"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 47 ],
+            "B": [ "1" ],
+            "S": [ 19 ],
+            "Y": [ 48 ]
+          }
+        },
+        "$procmux$206": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:149.10-149.21|./full_mod_sumres.v:149.6-168.10"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "1" ],
+            "B": [ "0" ],
+            "S": [ 19 ],
+            "Y": [ 49 ]
+          }
+        },
+        "$procmux$212": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:149.10-149.21|./full_mod_sumres.v:149.6-168.10"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0", "0", "0", "0" ],
+            "B": [ 2, 3, 4, 5 ],
+            "S": [ 19 ],
+            "Y": [ 50, 51, 52, 53 ]
+          }
+        },
+        "$procmux$218": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:149.10-149.21|./full_mod_sumres.v:149.6-168.10"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0", "0", "0", "0" ],
+            "B": [ 42, 43, 44, 45 ],
+            "S": [ 19 ],
+            "Y": [ 54, 55, 56, 57 ]
+          }
+        },
+        "$procmux$229": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:147.8-147.14|./full_mod_sumres.v:147.4-176.8"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "1" ],
+            "B": [ 49 ],
+            "S": [ 10 ],
+            "Y": [ 46 ]
+          }
+        },
+        "$procmux$232": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:147.8-147.14|./full_mod_sumres.v:147.4-176.8"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6, 7, 8, 9 ],
+            "B": [ 50, 51, 52, 53 ],
+            "S": [ 10 ],
+            "Y": [ 38, 39, 40, 41 ]
+          }
+        },
+        "$procmux$235": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:147.8-147.14|./full_mod_sumres.v:147.4-176.8"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2, 3, 4, 5 ],
+            "B": [ 54, 55, 56, 57 ],
+            "S": [ 10 ],
+            "Y": [ 30, 31, 32, 33 ]
+          }
+        },
+        "$procmux$241": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:147.8-147.14|./full_mod_sumres.v:147.4-176.8"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ 48 ],
+            "S": [ 10 ],
+            "Y": [ 28 ]
+          }
+        },
+        "ope": {
+          "hide_name": 0,
+          "type": "scalarxor",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:185.12-185.33"
+          },
+          "port_directions": {
+            "arr": "input",
+            "sc": "input",
+            "sxor": "output"
+          },
+          "connections": {
+            "arr": [ 42, 43, 44, 45 ],
+            "sc": [ 29 ],
+            "sxor": [ 58, 59, 60, 61 ]
+          }
+        },
+        "sumres0": {
+          "hide_name": 0,
+          "type": "sumres",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:186.9-186.57"
+          },
+          "port_directions": {
+            "a": "input",
+            "b": "input",
+            "in_cy": "input",
+            "out_c": "output",
+            "out_s": "output"
+          },
+          "connections": {
+            "a": [ 34 ],
+            "b": [ 58 ],
+            "in_cy": [ 29 ],
+            "out_c": [ 62 ],
+            "out_s": [ 12 ]
+          }
+        },
+        "sumres1": {
+          "hide_name": 0,
+          "type": "sumres",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:187.9-187.57"
+          },
+          "port_directions": {
+            "a": "input",
+            "b": "input",
+            "in_cy": "input",
+            "out_c": "output",
+            "out_s": "output"
+          },
+          "connections": {
+            "a": [ 35 ],
+            "b": [ 59 ],
+            "in_cy": [ 62 ],
+            "out_c": [ 63 ],
+            "out_s": [ 13 ]
+          }
+        },
+        "sumres2": {
+          "hide_name": 0,
+          "type": "sumres",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:188.9-188.57"
+          },
+          "port_directions": {
+            "a": "input",
+            "b": "input",
+            "in_cy": "input",
+            "out_c": "output",
+            "out_s": "output"
+          },
+          "connections": {
+            "a": [ 36 ],
+            "b": [ 60 ],
+            "in_cy": [ 63 ],
+            "out_c": [ 64 ],
+            "out_s": [ 14 ]
+          }
+        },
+        "sumres3": {
+          "hide_name": 0,
+          "type": "sumres",
+          "parameters": {
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "./full_mod_sumres.v:189.9-189.56"
+          },
+          "port_directions": {
+            "a": "input",
+            "b": "input",
+            "in_cy": "input",
+            "out_c": "output",
+            "out_s": "output"
+          },
+          "connections": {
+            "a": [ 37 ],
+            "b": [ 61 ],
+            "in_cy": [ 64 ],
+            "out_c": [ 18 ],
+            "out_s": [ 15 ]
+          }
+        }
+      },
+      "netnames": {
+        "$0\\operar[0:0]": {
+          "hide_name": 1,
+          "bits": [ 28 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          }
+        },
+        "$0\\sign[0:0]": {
+          "hide_name": 1,
+          "bits": [ 46 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          }
+        },
+        "$0\\t_a[3:0]": {
+          "hide_name": 1,
+          "bits": [ 30, 31, 32, 33 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          }
+        },
+        "$0\\t_b[3:0]": {
+          "hide_name": 1,
+          "bits": [ 38, 39, 40, 41 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          }
+        },
+        "$2\\operar[0:0]": {
+          "hide_name": 1,
+          "bits": [ 48 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          }
+        },
+        "$2\\sign[0:0]": {
+          "hide_name": 1,
+          "bits": [ 49 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          }
+        },
+        "$2\\t_a[3:0]": {
+          "hide_name": 1,
+          "bits": [ 54, 55, 56, 57 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          }
+        },
+        "$2\\t_b[3:0]": {
+          "hide_name": 1,
+          "bits": [ 50, 51, 52, 53 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          }
+        },
+        "$3\\operar[0:0]": {
+          "hide_name": 1,
+          "bits": [ 47 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:145.2-177.6"
+          }
+        },
+        "$auto$rtlil.cc:2412:Not$312": {
+          "hide_name": 1,
+          "bits": [ 20 ],
+          "attributes": {
+          }
+        },
+        "$auto$rtlil.cc:2412:Not$316": {
+          "hide_name": 1,
+          "bits": [ 22 ],
+          "attributes": {
+          }
+        },
+        "$auto$rtlil.cc:2416:ReduceOr$328": {
+          "hide_name": 1,
+          "bits": [ 23 ],
+          "attributes": {
+          }
+        },
+        "$auto$rtlil.cc:2416:ReduceOr$334": {
+          "hide_name": 1,
+          "bits": [ 24 ],
+          "attributes": {
+          }
+        },
+        "$auto$rtlil.cc:2416:ReduceOr$340": {
+          "hide_name": 1,
+          "bits": [ 25 ],
+          "attributes": {
+          }
+        },
+        "$auto$rtlil.cc:2416:ReduceOr$346": {
+          "hide_name": 1,
+          "bits": [ 26 ],
+          "attributes": {
+          }
+        },
+        "$auto$rtlil.cc:2416:ReduceOr$352": {
+          "hide_name": 1,
+          "bits": [ 27 ],
+          "attributes": {
+          }
+        },
+        "$eq$./full_mod_sumres.v:157$120_Y": {
+          "hide_name": 1,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:157.15-157.25"
+          }
+        },
+        "$lt$./full_mod_sumres.v:149$119_Y": {
+          "hide_name": 1,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:149.10-149.21"
+          }
+        },
+        "$not$./full_mod_sumres.v:192$130_Y": {
+          "hide_name": 1,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:192.17-192.24"
+          }
+        },
+        "cable0": {
+          "hide_name": 0,
+          "bits": [ 62 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:180.7-180.13"
+          }
+        },
+        "cable1": {
+          "hide_name": 0,
+          "bits": [ 63 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:181.7-181.13"
+          }
+        },
+        "cable2": {
+          "hide_name": 0,
+          "bits": [ 64 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:182.7-182.13"
+          }
+        },
+        "in_a": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:131.13-131.17"
+          }
+        },
+        "in_b": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:132.14-132.18"
+          }
+        },
+        "in_bm": {
+          "hide_name": 0,
+          "bits": [ 58, 59, 60, 61 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:183.12-183.17"
+          }
+        },
+        "op": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:133.9-133.11"
+          }
+        },
+        "operar": {
+          "hide_name": 0,
+          "bits": [ 29 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:137.6-137.12"
+          }
+        },
+        "out_cy0": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:134.9-134.16"
+          }
+        },
+        "out_s2": {
+          "hide_name": 0,
+          "bits": [ 12, 13, 14, 15 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:135.15-135.21"
+          }
+        },
+        "sign": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:142.6-142.10"
+          }
+        },
+        "sign0": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:136.9-136.14"
+          }
+        },
+        "t_a": {
+          "hide_name": 0,
+          "bits": [ 34, 35, 36, 37 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:139.11-139.14"
+          }
+        },
+        "t_b": {
+          "hide_name": 0,
+          "bits": [ 42, 43, 44, 45 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:140.11-140.14"
+          }
+        },
+        "t_cy0": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:141.7-141.12"
+          }
+        }
+      }
+    },
+    "mux21_4bit": {
+      "attributes": {
+        "src": "./full_mod_sumres.v:100.1-106.10"
+      },
+      "ports": {
+        "in_si": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "in_no": {
+          "direction": "input",
+          "bits": [ 6, 7, 8, 9 ]
+        },
+        "sel": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "sal": {
+          "direction": "output",
+          "bits": [ 11, 12, 13, 14 ]
+        }
+      },
+      "cells": {
+        "$ternary$./full_mod_sumres.v:105$114": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:105.16-105.32"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2, 3, 4, 5 ],
+            "B": [ 6, 7, 8, 9 ],
+            "S": [ 10 ],
+            "Y": [ 11, 12, 13, 14 ]
+          }
+        }
+      },
+      "netnames": {
+        "in_no": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:102.14-102.19"
+          }
+        },
+        "in_si": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:101.14-101.19"
+          }
+        },
+        "sal": {
+          "hide_name": 0,
+          "bits": [ 11, 12, 13, 14 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:104.15-104.18"
+          }
+        },
+        "sel": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:103.8-103.11"
+          }
+        }
+      }
+    },
+    "scalarxor": {
+      "attributes": {
+        "src": "./full_mod_sumres.v:194.1-204.10"
+      },
+      "ports": {
+        "arr": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "sc": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "sxor": {
+          "direction": "output",
+          "bits": [ 7, 8, 9, 10 ]
+        }
+      },
+      "cells": {
+        "$xor$./full_mod_sumres.v:202$132": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000100",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000100",
+            "Y_WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:202.15-202.23"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6, 6, 6, 6 ],
+            "B": [ 2, 3, 4, 5 ],
+            "Y": [ 7, 8, 9, 10 ]
+          }
+        }
+      },
+      "netnames": {
+        "arr": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:195.12-195.15"
+          }
+        },
+        "sc": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:196.7-196.9"
+          }
+        },
+        "sc_m": {
+          "hide_name": 0,
+          "bits": [ 6, 6, 6, 6 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:199.12-199.16"
+          }
+        },
+        "sxor": {
+          "hide_name": 0,
+          "bits": [ 7, 8, 9, 10 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:197.13-197.17"
+          }
+        }
+      }
+    },
+    "sumres": {
+      "attributes": {
+        "src": "./full_mod_sumres.v:205.1-215.10"
+      },
+      "ports": {
+        "a": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "b": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "in_cy": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "out_s": {
+          "direction": "output",
+          "bits": [ 5 ]
+        },
+        "out_c": {
+          "direction": "output",
+          "bits": [ 6 ]
+        }
+      },
+      "cells": {
+        "$and$./full_mod_sumres.v:213$135": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:213.19-213.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 2 ],
+            "Y": [ 7 ]
+          }
+        },
+        "$and$./full_mod_sumres.v:213$137": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:213.29-213.44"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8 ],
+            "B": [ 4 ],
+            "Y": [ 9 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:213$136": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:213.30-213.35"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Y": [ 8 ]
+          }
+        },
+        "$or$./full_mod_sumres.v:213$138": {
+          "hide_name": 1,
+          "type": "$or",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:213.18-213.45"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 9 ],
+            "Y": [ 6 ]
+          }
+        },
+        "$xor$./full_mod_sumres.v:212$133": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:212.19-212.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 3 ],
+            "Y": [ 10 ]
+          }
+        },
+        "$xor$./full_mod_sumres.v:212$134": {
+          "hide_name": 1,
+          "type": "$xor",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "./full_mod_sumres.v:212.18-212.33"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 10 ],
+            "B": [ 4 ],
+            "Y": [ 5 ]
+          }
+        }
+      },
+      "netnames": {
+        "$and$./full_mod_sumres.v:213$135_Y": {
+          "hide_name": 1,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:213.19-213.24"
+          }
+        },
+        "$and$./full_mod_sumres.v:213$137_Y": {
+          "hide_name": 1,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:213.29-213.44"
+          }
+        },
+        "$or$./full_mod_sumres.v:213$136_Y": {
+          "hide_name": 1,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:213.30-213.35"
+          }
+        },
+        "$xor$./full_mod_sumres.v:212$133_Y": {
+          "hide_name": 1,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:212.19-212.24"
+          }
+        },
+        "a": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:206.8-206.9"
+          }
+        },
+        "b": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:207.8-207.9"
+          }
+        },
+        "in_cy": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:208.8-208.13"
+          }
+        },
+        "out_c": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:210.9-210.14"
+          }
+        },
+        "out_s": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "./full_mod_sumres.v:209.9-209.14"
+          }
+        }
+      }
+    }
+  }
+}
