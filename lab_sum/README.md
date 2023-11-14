@@ -12,7 +12,7 @@ Según los visto en clase vimos que se podría hacer un sumador de cuantos bits 
   <img src="img/sum_k.png" height="30%" width="30%" >
 </center>
 - Este mapa es para la salida del digito de suma, con esto podemos obtener la expresión:
-$$C_{out} = BC_{in}+ AC_{in}+AB$$
+$$C_{out} = BC_{in}+ AC_{in}+A*B$$
 <center>
   <img src="img/carry_k.png" height="30%" width="30%" >
 </center>
