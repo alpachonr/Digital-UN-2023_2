@@ -28,3 +28,15 @@ C_{out} = BC_{in}+ AC_{in}+A*B
 <center>
   <img src="img/sum16.png" height="30%" width="30%" >
 </center>
+
+# Sumador-Restador Completo
+
+Con el objetivo de compilar lo visto en anteriores prácticas, se propuso la simulación y posterior prueba de un sumador-restador completo en una fpga cyclone.
+
+Este se compone de:
+1. El 7 segmentos realizado en practicas anteriores
+2. El sumador-restado con c_in para alternar entre la operación de suma y resta
+3. EL divisor de frecuencia para poder trabajar con la fpga
+4. Mulpliplexores para la selección de datos
+5. Y también un BintoDec para poder de pasar de lenguaje binario a Decimal
+
