@@ -24,7 +24,7 @@ C_{out} = BC_{in}+ AC_{in}+A*B
 <center>
   <img src="img/sum_sch.png" height="30%" width="30%" >
 </center>
-# se puede ver el 16 en binario en el led del carry out 
+# Se puede ver el 16 en binario en el led del carry out 
 <center>
   <img src="img/sum16.png" height="30%" width="30%" >
 </center>
