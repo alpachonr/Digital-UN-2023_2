@@ -20,7 +20,7 @@ C_{out} = BC_{in}+ AC_{in}+A*B
 </center>
 
 
-# esquematicos del sumador
+# Esquematicos del sumador
 <center>
   <img src="img/sum_sch.png" height="30%" width="30%" >
 </center>
