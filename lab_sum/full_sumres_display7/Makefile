@@ -1,8 +1,12 @@
 TOP?=top
 # DESIGN Modules .v que hacen parte del proyecto
-DESIGN?=./full_mod_sumres.v
+DESIGN?=./top.v
+#test bench del proyecto para la simulación
+tb?=$(TOP)_tb.v
 # Ruta donde está quartus instalado
 PATH_QUARTUS?=/home/alejandro/intelFPGA_lite/22.1std/quartus/bin
+# MORE_SRC2SIM permite agregar más archivos fuentes para la simulación
+MORE_SRC2SIM?=
 # Cable programador
 CABLE?=USB-Blaster
 
@@ -21,7 +25,12 @@ report-syn: report-syn-quartus
 
 config: config-fpga-quartus
 
-# clean: clean-sim clean-syn-quartus
+clean: clean-sim clean-syn-quartus clean-sim
+
+
+rtl: rtl-from-json view-svg
+
+sim: clean-sim iverilog-compile vpp-simulate wave
 
 # Aplicación de síntesis
 CC=$(PATH_QUARTUS)/quartus_sh
@@ -111,12 +120,8 @@ help-sim:
 	@echo "\tmake rtl rtl2png TOP=modulo1\t\t:Además de convertir, obtiene el RTL de otros modulos (submodulos)"
 	@echo "\tmake convertOneVerilogFile\t\t\t:Crear un único verilog del diseño"
 
-rtl: rtl-from-json view-svg
 
-sim: clean-sim iverilog-compile vpp-simulate wave
 
-# MORE_SRC2SIM permite agregar más archivos fuentes para la simulación
-MORE_SRC2SIM?=
 iverilog-compile:
 	mkdir -p $S
 ifneq ($(MORE_SRC2SIM), )
