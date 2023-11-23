@@ -12,17 +12,38 @@ Según los visto en clase vimos que se podría hacer un sumador de cuantos bits 
   <img src="img/sum_k.png" height="30%" width="30%" >
 </center>
 - Este mapa es para la salida del digito de suma, con esto podemos obtener la expresión:
-$`C_{out} = BC_{in}+ AC_{in}+AB`$
+```math
+C_{out} = BC_{in}+ AC_{in}+A*B
+```
 <center>
   <img src="img/carry_k.png" height="30%" width="30%" >
 </center>
 
 
-# esquematicos del sumador
+# Esquematicos del sumador
 <center>
   <img src="img/sum_sch.png" height="30%" width="30%" >
 </center>
-# se puede ver el 16 en binario en el led del carry out 
+# Se puede ver el 16 en binario en el led del carry out 
 <center>
   <img src="img/sum16.png" height="30%" width="30%" >
 </center>
+
+# Sumador-Restador Completo
+
+Con el objetivo de compilar lo visto en anteriores prácticas, se propuso la simulación y posterior prueba de un sumador-restador completo en una fpga cyclone.
+
+Este se compone de:
+1. El 7 segmentos realizado en practicas anteriores (lab_fpga/READ.md)
+2. El sumador-restado con c_in para alternar entre la operación de suma y resta
+3. EL divisor de frecuencia para poder trabajar con la fpga
+4. Mulpliplexores para la selección de datos
+5. Y también un BintoDec para poder de pasar de lenguaje binario a Decimal
+
+*imagen de make sim
+
+
+Tras confirmar el correcto funcionamiento del simulador, se realiza el Makefile y se con el top.vcp para cuadrar los Led's de la cyclone.
+
+*imagen de todo funcionando
+
