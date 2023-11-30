@@ -47,7 +47,7 @@ Este se compone de:
 
 Tras confirmar el correcto funcionamiento del simulador, se realiza el Makefile y se con el top.vcp para cuadrar los Led's de la cyclone.
 
- Como resultado de este proceso tenemos el codigo del Sumador-Restador completo ya montado en la FPGA Cyclone IV, donde a continuacion se muestra un ejemplo de operaciones A=7 y B=6
+ Como resultado de este proceso tenemos el codigo del Sumador-Restador completo ya montado en la FPGA Cyclone IV, donde a continuacion se muestra un ejemplo de operaciones en las que A=7 y B=6
 <center>
   <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/7+6.jpeg" height="30%" width="30%" >
 </center>
