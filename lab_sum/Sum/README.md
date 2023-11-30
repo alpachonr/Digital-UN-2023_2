@@ -40,7 +40,9 @@ Este se compone de:
 4. Mulpliplexores para la selección de datos
 5. Y también un BintoDec para poder de pasar de lenguaje binario a Decimal
 
-*imagen de make sim
+<center>
+  <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/Fullsumres.png" height="30%" width="30%" >
+</center>
 
 
 Tras confirmar el correcto funcionamiento del simulador, se realiza el Makefile y se con el top.vcp para cuadrar los Led's de la cyclone.
