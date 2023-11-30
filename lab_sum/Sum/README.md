@@ -41,7 +41,7 @@ Este se compone de:
 5. Y también un BintoDec para poder de pasar de lenguaje binario a Decimal
 
 <center>
-  <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/Rtlsumres.png" height="30%" width="30%" >
+  <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/RtlSumres.png" height="30%" width="30%" >
 </center>
 
 
