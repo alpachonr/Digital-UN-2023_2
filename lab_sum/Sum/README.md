@@ -16,7 +16,7 @@ Según los visto en clase vimos que se podría hacer un sumador de cuantos bits 
 C_{out} = BC_{in}+ AC_{in}+A*B
 ```
 <center>
-  <img src="img/carry_k.png" height="30%" width="30%" >
+  <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/carry_k.png?raw=true" height="30%" width="30%" >
 </center>
 
 
