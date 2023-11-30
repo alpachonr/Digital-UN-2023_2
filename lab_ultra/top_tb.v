@@ -12,6 +12,7 @@ module testbech;
       #1 at = 1; 
       #2 at = 0; 
       #200000 bt=1;
+      #200002 bt=0;
          //   # 100 $finish(); // [stop(), $finish()]
    end
 
