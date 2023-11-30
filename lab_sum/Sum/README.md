@@ -55,4 +55,6 @@ Tras confirmar el correcto funcionamiento del simulador, se realiza el Makefile 
 <center>
   <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/7-6.jpeg" height="30%" width="30%" >
 </center>
-Los archivos necesarios para realizar esta parte de la practica se encuentran en la carpeta [full_sumres_display7](https://github.com/alpachonr/Digital-UN-2023_2/tree/main/lab_sum/full_sumres_display7) de este mismo repositorio.
+Los archivos necesarios para realizar esta parte de la practica se encuentran en la carpeta 
+[full_sumres_display7](https://github.com/alpachonr/Digital-UN-2023_2/tree/main/lab_sum/full_sumres_display7) 
+de este mismo repositorio.
