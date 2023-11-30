@@ -22,11 +22,11 @@ C_{out} = BC_{in}+ AC_{in}+A*B
 
 # Esquematicos del sumador
 <center>
-  <img src="img/sum_sch.png" height="30%" width="30%" >
+  <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/sum_sch.png" height="30%" width="30%" >
 </center>
 # Se puede ver el 16 en binario en el led del carry out 
 <center>
-  <img src="img/sum16.png" height="30%" width="30%" >
+  <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/sum16.png" height="30%" width="30%" >
 </center>
 
 # Sumador-Restador Completo
