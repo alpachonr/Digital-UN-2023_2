@@ -9,7 +9,7 @@ Según los visto en clase vimos que se podría hacer un sumador de cuantos bits 
 
 2.Luego para cada salida se hizo el mapa de karnaugh:
 <center>
-  <img src=" https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/sum_k.png" height="30%" width="30%" >
+  <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/sum_k.png" height="30%" width="30%" >
 </center>
 - Este mapa es para la salida del digito de suma, con esto podemos obtener la expresión:
 ```math
