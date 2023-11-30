@@ -4,12 +4,12 @@ Según los visto en clase vimos que se podría hacer un sumador de cuantos bits 
 
 1. Para empezar la tabla de verdad de lo que necesitamos, dos entradas de un bit (A y B) y el acarreo (C), si es el primer \notsumador pues queda en ceros pero para los demás nos importa bastante el valor de este acarreo, las salidas que se requieren son; un dígito del número a sumar (S) y el acarreo para la siguiente suma (Cout).
 <center>
-  <img src="img/sum_verdad.png" height="50%" width="50%" >
+  <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/sum_verdad.png" height="50%" width="50%" >
 </center>
 
 2.Luego para cada salida se hizo el mapa de karnaugh:
 <center>
-  <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/sum_verdad.png" height="30%" width="30%" >
+  <img src=" https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/sum_k.png" height="30%" width="30%" >
 </center>
 - Este mapa es para la salida del digito de suma, con esto podemos obtener la expresión:
 ```math
