@@ -12,13 +12,11 @@ Según los visto en clase vimos que se podría hacer un sumador de cuantos bits 
   <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/sum_k.png" height="30%" width="30%" >
 </center>
 - Este mapa es para la salida del digito de suma, con esto podemos obtener la expresión:
-```math
-C_{out} = BC_{in}+ AC_{in}+A*B
-```
+
 <center>
   <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/carry_k.png" height="30%" width="30%" >
 </center>
-
+ <img src="https://github.com/alpachonr/Digital-UN-2023_2/blob/main/lab_sum/img/equation_suma.png" height="30%" width="30%" >
 
 # Esquematicos del sumador
 <center>
